@@ -4,3 +4,6 @@
 
 # Windows Files
 Thumbs.db
+
+# Jekyll Files
+_site/

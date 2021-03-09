@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Dynamika Server Status</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="title" content="Dynamika Server Status"/>
+        <meta name="description" content="online operation status of servers viewer"/>
+        <link rel="shortcut icon" href="favicon.ico"/>
+        <style type="text/css">
+            @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+            
+            body {
+                background-color: #286552;
+                font-family:"Karla", Arial, Helvetica, sans-serif;
+                text-align: center;
+            }
+            
+            h1 img {
+                width: 40vmax;
+                margin:20vh 0 8vh 0;
+                padding-bottom:8vh;
+                border-bottom:1px solid rgba(255,255,255,.2);
+            }
+
+            a {
+                text-decoration: none;
+                text-align: center;
+                color: white;
+            }
+
+            a:hover{
+                -webkit-filter: opacity(80%);
+                filter: opacity(80%);
+            }
+
+            h1,h2 {
+                font-size:16px;
+                font-weight:100;
+                color:rgba(255,255,255,.7);
+            }
+
+            table {
+                margin: 0 auto;
+                color: white;
+                font-weight: bold;
+            }
+
+            td:first-child {
+                width: 30vmax;
+            }
+
+            tr img {
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        {{ content }}
+    </body>
+</html>
